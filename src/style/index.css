@@ -100,3 +100,25 @@
   border: none;
   border-radius: 0 0 3px 0;
 }
+.filasInputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.ubicacionInputs {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 150px;
+}
+
+label {
+  font-weight: bolder;
+}
+select {
+  width: 100px;
+}
+.picker {
+  border-color: PINK;
+}
