@@ -1,4 +1,4 @@
-import "../style/index.css";
+//import "../style/index.css";
 
 /**
  *  EDIT ONLY INSIDE THIS RENDER FUNCTION
@@ -89,3 +89,17 @@ window.onload = function() {
     });
   });
 };
+
+let nombre = document.querySelector("#nombre");
+let apellido = document.getElementById("apellido");
+let rol = document.querySelector(".rol");
+let ubicacion = document.querySelector(".ubicacion");
+let nombreInput = document.querySelector(".nombreInput");
+let apellidoInput= document.querySelector(".apellidoInput");;
+nombreInput.addEventListener("click",()=>{
+  nombre.innerText = nombreInput.value;
+})
+apellidoInput.addEventListener("click",()=>{
+  apellido.innerText = apellidoInput.value;
+})
+console.log(nombreInput);
